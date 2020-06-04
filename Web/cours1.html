@@ -83,23 +83,33 @@
         <form action="#" method="POST">
             <div>
                 <label for="name">Nom :</label>
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name" name="user_name" value="usename" size="50" required>
+            </div>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="user_password" minlength="4" maxlength="16" required>
             </div>
             <div>
                 <label for="mail">e-mail :</label>
-                <input type="email" id="mail" name="user_mail">
+                <input type="email" id="mail" name="user_mail" required>
             </div>
             <div>
                 <label for="msg">Message :</label>
-                <textarea id="msg" name="user_message"></textarea>
+                <textarea id="msg" name="user_message" size="150" required></textarea>
+            </div>
+            <div>
+                <label for="image">Avatar</label>
+                <input type="file" accept="image/*" name="image" />
             </div>
             
-            <SELECT name="nom" size="3">
-                <OPTION>lundi</OPTION>
-                <OPTION>mardi
-                <OPTION>mercredi
-                <OPTION>jeudi
-                <OPTION>vendredi
+            <SELECT name="nom" size="1">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
             </SELECT>
 
             <button> envoyer</button>
