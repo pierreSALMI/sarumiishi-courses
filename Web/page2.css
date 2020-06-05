@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+    background-color: #000000;
+    text-align: center;
+    width: 1000px;
+}
+
+
+#container {
+    width: 50%;
+    margin: auto;
+    background-color: grey;
+    color: hotpink;
+}
+
+#container h2 {
+    text-align: center;
+    color: red;
+    padding-top: 50px;
+    border: 3px solid black;
+
+}
+
+#container p {
+    color: blue;
+}
+
+#container .violet {
+    color: purple;
+    text-align: right;
+    
+}
