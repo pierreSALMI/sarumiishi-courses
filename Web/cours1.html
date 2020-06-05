@@ -95,11 +95,25 @@
             </div>
             <div>
                 <label for="msg">Message :</label>
-                <textarea id="msg" name="user_message" size="150" required></textarea>
+                <textarea id="msg" name="user_message" size="150" placeholder="votre message" required></textarea>
             </div>
             <div>
                 <label for="image">Avatar</label>
                 <input type="file" accept="image/*" name="image" />
+            </div>
+            <div>
+                <input type="radio" id="contactChoice1" name="contact" value="email">
+                <label for="contactChoice1">Email</label>
+
+                <input type="radio" id="contactChoice2" name="contact" value="telephone">
+                <label for="contactChoice2">Téléphone</label>
+                
+                <input type="radio" id="contactChoice3" name="contact" value="courrier">
+                <label for="contactChoice3">Courrier</label>
+            </div>
+            <div>
+                <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+                <label for="subscribeNews">Souhaitez-vous vous abonner à la newsletter ?</label>
             </div>
             
             <SELECT name="nom" size="1">
