@@ -27,15 +27,17 @@ a:hover{
 
 }
 
-#container p {
-    color: blue;
-}
-
 #container .violet {
     color: purple;
     text-align: right;
     
 }
+
+#container p {
+    color: blue;
+}
+
+
 
 .mainBox {
     display: flex;
@@ -71,7 +73,7 @@ a:hover{
     flex-basis: 48%;
     flex-grow: 1;
     flex-shrink: 1;
-    /*flex: 1 1 auto;
+    /*flex: 1 1 48%;
      flex: grow shrink basis*/
 }
 
